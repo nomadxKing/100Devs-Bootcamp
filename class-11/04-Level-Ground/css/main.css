@@ -8,21 +8,16 @@
 /* Base styles */
 
 /* header */
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .topLogo {
     display: flex;
-    align-items: flex-end;
-} */
-
-header nav {
-  display: flex;
-  align-items: center;
-  width: 100%;
+    align-items: center;
+    padding-right: 8rem;
 }
 
 header nav a {
@@ -34,14 +29,181 @@ header nav a.topLogo {
   margin: 0 auto;
 }
 
+/* HEADER STYLES */
+
+header {
+  background-color: #8199b3;
+}
+/* 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+} */
+
+/* MAIN STYLES */
+
+.topContent {
+  background-color: #8199b3;
+  color: white;
+}
+
+.topContent h1 {
+  letter-spacing: 3px;
+  font-size: 50px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.topContent p {
+  width: 38%;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.topContent a {
+  margin-bottom: 3rem;
+}
+
+main span {
+  color: black;
+  font-size: 12px;
+}
+
+.topContent {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.topContent span {
+  margin-bottom: 1rem;
+}
+
+/* MID CONTENT TWO CONTAINER */
+
+.blueBoxOne {
+  border: 1px solid #8199b3;
+  width: 325px;
+  height: 200px;
+  background-color: #8199b3;
+  margin-bottom: 1rem;
+}
+
+.blueBoxTwo {
+  border: 1px solid #8199b3;
+  width: 325px;
+  height: 200px;
+  background-color: #8199b3;
+  margin-bottom: 1rem;
+}
+
+/* BODY */
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+} 
+
+.midContentOne {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
 }
 
+.midContentOne h2 {
+  margin-top: 6rem;
+}
+
+.midContentOne p {
+  text-align: center;
+  width: 25%;
+  margin-bottom: 6rem;
+}
+
+.midContentTwoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding-bottom: 5rem;
+  background-color: #dff2e9;
+}
+
+.midContentTwo, .midContentThree {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.midContentTwo p, .midContentThree p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* BOTTOM CONTENT */
+
+.bottomContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+/* .bottomContent h3 {
+  padding-top: 
+} */
+
+
 /* footer */
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+/* Top row: nav left, company info right */
+.footerTopRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.companyInfo {
+    text-align: right;
+}
+
+/* Footer bar spans width with small margins */
+.footerBar {
+    height: 2px;
+    background-color: #333;
+    margin: 1rem 2rem; /* Small space at each end */
+}
+
+/* Copyright centered at bottom */
+.copyrightInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.copyrightInfo .logo {
+    height: 30px;
+}
 
 /* Flexbox */
